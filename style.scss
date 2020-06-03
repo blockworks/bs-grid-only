@@ -7,8 +7,7 @@ $black:    #000;
 //////////////////////////////////////////////////
 // import
 //////////////////////////////////////////////////
-@import "_bootstrap-grid"; //original
-@import "_add-bs-custom"; //original
+@import "_bootstrap-grid-custom"; //custom
 
 //////////////////////////////////////////////////
 //@ mixin
@@ -35,13 +34,6 @@ $black:    #000;
 			@content;
 		}
 	}
-}
-
-.w-33 {
-	width: 33.33333% !important;
-}
-.h-33 {
-	height: 33.33333% !important;
 }
 
 //////////////////////////////////////////////////
